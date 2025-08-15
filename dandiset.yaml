@@ -11,15 +11,77 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Neural basis of facial individual recognition in paper wasps (2025). (Version
-  draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/000578/draft
+citation: Sheehan, Michael J; Freiwald, Winrich; Mammen, Lorenz Carl Christian (2025)
+  Neural correlates of individual facial recognition in a social wasp (Version draft)
+  [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/000578/draft
 contributor:
-- {}
+- awardNumber: 1R34NS128868-01
+  identifier: https://ror.org/01s5ya894
+  name: NIH National Institute of Neurological Disorders and Stroke (NINDS)
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: '5K99EY035504-02  '
+  identifier: https://ror.org/03wkg3b53
+  name: NIH National Eye Institute (NEI)
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- email: jernigc@wfu.edu
+  identifier: 0000-0002-1877-953X
+  name: Jernigan, Christopher M
+  roleName:
+  - dcite:Author
+  - dcite:Conceptualization
+  - dcite:ContactPerson
+  - dcite:DataCollector
+  - dcite:DataCurator
+  - dcite:DataManager
+  - dcite:FormalAnalysis
+  - dcite:FundingAcquisition
+  - dcite:Investigation
+  - dcite:Methodology
+  - dcite:ProjectLeader
+  - dcite:ProjectManager
+  - dcite:ProjectMember
+  - dcite:ProjectAdministration
+  - dcite:Researcher
+  - dcite:Supervision
+  schemaKey: Person
+- identifier: 0000-0002-3949-7873
+  includeInCitation: true
+  name: Sheehan, Michael J
+  roleName:
+  - dcite:Author
+  - dcite:Conceptualization
+  - dcite:ContactPerson
+  - dcite:DataManager
+  - dcite:FundingAcquisition
+  - dcite:ProjectLeader
+  - dcite:ProjectManager
+  - dcite:Supervision
+  schemaKey: Person
+- identifier: 0000-0001-8456-5030
+  includeInCitation: true
+  name: Freiwald, Winrich
+  roleName:
+  - dcite:Author
+  - dcite:Conceptualization
+  - dcite:Supervision
+  schemaKey: Person
+- identifier: 0000-0003-0452-5608
+  includeInCitation: true
+  name: Mammen, Lorenz Carl Christian
+  roleName:
+  - dcite:Author
+  - dcite:Conceptualization
+  - dcite:DataCollector
+  - dcite:ProjectMember
+  schemaKey: Person
 dateCreated: '2023-07-07T16:52:22.908407+00:00'
-description: Raw electrophysiological dataset using 64-channel silicon probes used
-  to physiologically identify wasp frontal view selectivity in the nervous system.
-  Affiliated meta data include, animal information, raw voltage data, stimulus set
-  video and images, presentation order, and meta.
+description: 'Raw electrophysiological dataset using 64-channel silicon probes and
+  affiliated meta data: animal information, raw voltage data, stimulus set video and
+  images, presentation order, and meta.'
 ethicsApproval: []
 id: DANDI:000578/draft
 identifier: DANDI:000578
@@ -29,14 +91,16 @@ license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000578/versions/draft/assets/
-name: Neural basis of facial individual recognition in paper wasps
+name: Neural correlates of individual facial recognition in a social wasp
+protocol:
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC11042187/
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
 studyTarget:
-- Identification of physiological responses to social stimuli in Polistes fucatus,
-  and the key features these neurons are responding to and encoding.
+- Identify selectivity to social stimuli and their location in the Polistes fuscatus
+  brain, and identify some of the features that socially selective units may encode.
 url: https://dandiarchive.org/dandiset/000578/draft
 version: draft
 wasGeneratedBy: []
