@@ -5,13 +5,14 @@
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json
 about: []
 access:
-- schemaKey: AccessRequirements
+- embargoedUntil: '2028-03-10'
+  schemaKey: AccessRequirements
   status: dandi:EmbargoedAccess
 assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Sheehan, Michael J; Freiwald, Winrich; Mammen, Lorenz Carl Christian (2025)
+citation: Sheehan, Michael J; Freiwald, Winrich; Mammen, Lorenz Carl Christian (2026)
   Neural correlates of individual facial recognition in a social wasp (Version draft)
   [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/000578/draft
 contributor:
