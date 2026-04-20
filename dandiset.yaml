@@ -9,9 +9,32 @@ access:
   schemaKey: AccessRequirements
   status: dandi:EmbargoedAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: spike sorting technique
+    schemaKey: MeasurementTechniqueType
+  - name: multi electrode extracellular electrophysiology recording technique
+    schemaKey: MeasurementTechniqueType
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 1571363389154
+  numberOfFiles: 58
+  numberOfSubjects: 27
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_30207
+    name: Polistes fuscatus - Common paper wasp
+    schemaKey: SpeciesType
+  variableMeasured:
+  - ElectrodeGroup
+  - Units
+  - ElectricalSeries
 citation: Sheehan, Michael J; Freiwald, Winrich; Mammen, Lorenz Carl Christian (2026)
   Neural correlates of individual facial recognition in a social wasp (Version draft)
   [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/000578/draft
