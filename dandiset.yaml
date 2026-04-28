@@ -23,13 +23,16 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 1571363389154
-  numberOfFiles: 58
-  numberOfSubjects: 27
+  numberOfBytes: 1539133318648
+  numberOfFiles: 72
+  numberOfSubjects: 24
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_30207
     name: Polistes fuscatus - Common paper wasp
+    schemaKey: SpeciesType
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_30207
+    name: Polistes fuscatus
     schemaKey: SpeciesType
   variableMeasured:
   - ElectrodeGroup
