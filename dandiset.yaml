@@ -23,9 +23,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: spike sorting technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 1692710323683
-  numberOfFiles: 88
-  numberOfSubjects: 26
+  numberOfBytes: 2019128490289
+  numberOfFiles: 93
+  numberOfSubjects: 31
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_30207
@@ -39,18 +39,6 @@ citation: Sheehan, Michael J; Freiwald, Winrich; Mammen, Lorenz Carl Christian (
   Neural correlates of individual facial recognition in a social wasp (Version draft)
   [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/000578/draft
 contributor:
-- awardNumber: 1R34NS128868-01
-  identifier: https://ror.org/01s5ya894
-  name: NIH National Institute of Neurological Disorders and Stroke (NINDS)
-  roleName:
-  - dcite:Funder
-  schemaKey: Organization
-- awardNumber: '5K99EY035504-02  '
-  identifier: https://ror.org/03wkg3b53
-  name: NIH National Eye Institute (NEI)
-  roleName:
-  - dcite:Funder
-  schemaKey: Organization
 - email: jernigc@wfu.edu
   identifier: 0000-0002-1877-953X
   name: Jernigan, Christopher M
@@ -72,7 +60,8 @@ contributor:
   - dcite:Researcher
   - dcite:Supervision
   schemaKey: Person
-- identifier: 0000-0002-3949-7873
+- email: msheehan@cornell.edu
+  identifier: 0000-0002-3949-7873
   includeInCitation: true
   name: Sheehan, Michael J
   roleName:
@@ -85,7 +74,8 @@ contributor:
   - dcite:ProjectManager
   - dcite:Supervision
   schemaKey: Person
-- identifier: 0000-0001-8456-5030
+- email: wfreiwald@rockefeller.edu
+  identifier: 0000-0001-8456-5030
   includeInCitation: true
   name: Freiwald, Winrich
   roleName:
@@ -93,7 +83,8 @@ contributor:
   - dcite:Conceptualization
   - dcite:Supervision
   schemaKey: Person
-- identifier: 0000-0003-0452-5608
+- email: lcm228@cornell.edu
+  identifier: 0000-0003-0452-5608
   includeInCitation: true
   name: Mammen, Lorenz Carl Christian
   roleName:
