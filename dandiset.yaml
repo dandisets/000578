@@ -5,9 +5,9 @@
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json
 about: []
 access:
-- embargoedUntil: '2028-03-10'
+- embargoedUntil: '2026-10-12'
   schemaKey: AccessRequirements
-  status: dandi:EmbargoedAccess
+  status: dandi:OpenAccess
 assetsSummary:
   approach:
   - name: electrophysiological approach
