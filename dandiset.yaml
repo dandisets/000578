@@ -39,8 +39,8 @@ assetsSummary:
   - Units
   - ElectrodeGroup
 citation: Mammen, Lorenz Carl Christian; Freiwald, Winrich; Sheehan, Michael J (2026)
-  Neural correlates of individual facial recognition in a social wasp (Version draft)
-  [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/000578/draft
+  Neural correlates of individual facial recognition in a social wasp (Version 0.261027.1550)
+  [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.000578/0.261027.1550
 contributor:
 - email: jernigc@wfu.edu
   identifier: 0000-0002-1877-953X
@@ -115,28 +115,43 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2023-07-07T16:52:22.908407+00:00'
+datePublished: '2026-10-27T15:50:51.782556+00:00'
 description: 'Raw electrophysiological dataset using 64-channel silicon probes and
   affiliated meta data: animal information, raw voltage data, stimulus set video and
   images, presentation order, and meta.'
+doi: 10.48324/dandi.000578/0.261027.1550
 ethicsApproval: []
-id: DANDI:000578/draft
+id: DANDI:000578/0.261027.1550
 identifier: DANDI:000578
 keywords:
 - Polistes fuscatus, wasp cell, face cell, social processing, lateral protocerebrum
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000578/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000578/0.261027.1550/assets.yaml
 name: Neural correlates of individual facial recognition in a social wasp
 protocol:
 - https://pmc.ncbi.nlm.nih.gov/articles/PMC11042187/
+publishedBy:
+  endDate: '2026-10-27T15:50:51.782556+00:00'
+  id: urn:uuid:664adc61-62f7-4704-8b3d-fd66bfa6be1d
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-10-27T15:50:51.782556+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:db1fdc95-0b96-4e9c-9e1d-869ec39689a0
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
+releaseNotes: Updated Funding information.
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
 studyTarget:
 - Identify selectivity to social stimuli and their location in the Polistes fuscatus
   brain, and identify some of the features that socially selective units may encode.
-url: https://dandiarchive.org/dandiset/000578/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000578/0.261027.1550
+version: 0.261027.1550
 wasGeneratedBy: []
