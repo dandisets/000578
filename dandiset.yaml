@@ -8,6 +8,9 @@ access:
 - embargoedUntil: '2026-10-12'
   schemaKey: AccessRequirements
   status: dandi:OpenAccess
+acknowledgement: This work was supported by federal grants from the National Institutes
+  of Health grant 1R34NS128868-01 awarded to MJS, and CMJ was supported by 1K99EY035504
+  and 4R00EY035504.
 assetsSummary:
   approach:
   - name: electrophysiological approach
@@ -35,7 +38,7 @@ assetsSummary:
   - ElectricalSeries
   - Units
   - ElectrodeGroup
-citation: Sheehan, Michael J; Freiwald, Winrich; Mammen, Lorenz Carl Christian (2026)
+citation: Mammen, Lorenz Carl Christian; Freiwald, Winrich; Sheehan, Michael J (2026)
   Neural correlates of individual facial recognition in a social wasp (Version draft)
   [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/000578/draft
 contributor:
@@ -60,6 +63,25 @@ contributor:
   - dcite:Researcher
   - dcite:Supervision
   schemaKey: Person
+- email: lcm228@cornell.edu
+  identifier: 0000-0003-0452-5608
+  includeInCitation: true
+  name: Mammen, Lorenz Carl Christian
+  roleName:
+  - dcite:Author
+  - dcite:Conceptualization
+  - dcite:DataCollector
+  - dcite:ProjectMember
+  schemaKey: Person
+- email: wfreiwald@rockefeller.edu
+  identifier: 0000-0001-8456-5030
+  includeInCitation: true
+  name: Freiwald, Winrich
+  roleName:
+  - dcite:Author
+  - dcite:Conceptualization
+  - dcite:Supervision
+  schemaKey: Person
 - email: msheehan@cornell.edu
   identifier: 0000-0002-3949-7873
   includeInCitation: true
@@ -73,25 +95,6 @@ contributor:
   - dcite:ProjectLeader
   - dcite:ProjectManager
   - dcite:Supervision
-  schemaKey: Person
-- email: wfreiwald@rockefeller.edu
-  identifier: 0000-0001-8456-5030
-  includeInCitation: true
-  name: Freiwald, Winrich
-  roleName:
-  - dcite:Author
-  - dcite:Conceptualization
-  - dcite:Supervision
-  schemaKey: Person
-- email: lcm228@cornell.edu
-  identifier: 0000-0003-0452-5608
-  includeInCitation: true
-  name: Mammen, Lorenz Carl Christian
-  roleName:
-  - dcite:Author
-  - dcite:Conceptualization
-  - dcite:DataCollector
-  - dcite:ProjectMember
   schemaKey: Person
 dateCreated: '2023-07-07T16:52:22.908407+00:00'
 description: 'Raw electrophysiological dataset using 64-channel silicon probes and
