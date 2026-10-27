@@ -96,6 +96,24 @@ contributor:
   - dcite:ProjectManager
   - dcite:Supervision
   schemaKey: Person
+- awardNumber: '1R34NS128868-01 '
+  identifier: https://ror.org/01cwqze88
+  name: 'National Institutes of Health '
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: 1K99EY035504
+  identifier: https://ror.org/03wkg3b53
+  name: National Eye Institute
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: 4R00EY035504
+  identifier: https://ror.org/03wkg3b53
+  name: National Eye Institute
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2023-07-07T16:52:22.908407+00:00'
 description: 'Raw electrophysiological dataset using 64-channel silicon probes and
   affiliated meta data: animal information, raw voltage data, stimulus set video and
